@@ -11,19 +11,10 @@ let totalOne = document.getElementById("totalOne");
 calc.addEventListener("click", function () {
   let sum = 0;
 
-  sum += rowOne[0].valueAsNumber;
-  sum += rowOne[1].valueAsNumber;
-  sum += rowOne[2].valueAsNumber;
-  sum += rowOne[3].valueAsNumber;
-  sum += rowOne[4].valueAsNumber;
-  sum += rowOne[5].valueAsNumber;
-  sum += rowOne[6].valueAsNumber;
-  sum += rowOne[7].valueAsNumber;
-  sum += rowOne[8].valueAsNumber;
-  sum += rowOne[9].valueAsNumber;
-  sum += rowOne[10].valueAsNumber;
-  sum += rowOne[11].valueAsNumber;
-  sum += rowOne[12].valueAsNumber;
+  for (let i = 0; i <= 12; i++) {
+    sum += rowOne[i].valueAsNumber;
+    totalOne.value = sum;
+  }
 
   console.log(sum);
 });
