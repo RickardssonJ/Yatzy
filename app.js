@@ -10,6 +10,7 @@ let totalOne = document.getElementById("totalOne");
 
 calc.addEventListener("click", function () {
   let sum = 0;
+
   sum += rowOne[0].valueAsNumber;
   sum += rowOne[1].valueAsNumber;
   sum += rowOne[2].valueAsNumber;
