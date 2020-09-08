@@ -1,0 +1,63 @@
+table {
+  border-collapse: collapse;
+}
+
+input {
+  width: 50px;
+  border: none;
+  background-color: inherit;
+}
+input.name,
+input.rowOne {
+  border: none;
+}
+
+td.name {
+  border: solid 2px;
+}
+
+table,
+td,
+th {
+  border: solid 1px;
+}
+
+.playerRow {
+  background-color: grey;
+  text-align: left;
+  border: solid 2px;
+}
+.name {
+  background-color: rgb(226, 224, 224);
+  border: solid 1px;
+}
+.rowOne,
+.rowThree {
+  background-color: rgb(180, 182, 180);
+}
+
+.table-main {
+  background-color: rgb(243, 185, 162);
+}
+.chat {
+  border: solid black;
+  text-align: left;
+  background-color: white;
+}
+.chat h1 {
+  margin-left: 0.5rem;
+}
+.red {
+  color: rgb(245, 102, 102);
+  font-weight: bolder;
+  margin-left: 0.5rem;
+}
+.blue {
+  color: rgb(75, 75, 243);
+  font-weight: bolder;
+  margin-left: 0.5rem;
+}
+
+.dice {
+  float: right;
+}
