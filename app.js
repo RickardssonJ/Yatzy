@@ -1,5 +1,5 @@
 let rowOne = document.getElementsByClassName("rowOneNum");
-let dice = document.getElementById("diceBtn");
+//let dice = document.getElementById("diceBtn");
 let calc = document.getElementById("calcBtn");
 let totalOne = document.getElementById("totalOne");
 let bonusOne = document.getElementById("bonusOne");
