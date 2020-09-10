@@ -27,7 +27,7 @@ calc.addEventListener("click", function () {
 });
 
 
-// Roll dice function and full house checker
+/// Roll dice function and full house checker
 function rollDice() {
   let throws = [];
   let diceThrow = 0;
