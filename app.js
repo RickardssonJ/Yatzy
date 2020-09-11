@@ -1,9 +1,22 @@
 let rowOne = document.getElementsByClassName("rowOneNum");
+
 //let dice = document.getElementById("diceBtn");
 let calc = document.getElementById("calcBtn");
 let totalOne = document.getElementById("totalOne");
 let bonusOne = document.getElementById("bonusOne");
 let sumOne = document.getElementById("sumOne");
+
+let sum=0
+
+for (input of rowOne){
+
+  input.addEventListener("keyup", function(e){
+    sum+=Number(e.target.value)
+    sumOne.value= sum
+  })
+}
+
+
 
 calc.addEventListener("click", function () {
   let sum = 0;
