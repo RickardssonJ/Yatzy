@@ -26,6 +26,8 @@ calc.addEventListener("click", function () {
   console.log(sum);
 });
 
+let 
+
 
 /// Roll dice function and full house checker
 function rollDice() {
