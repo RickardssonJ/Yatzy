@@ -34,6 +34,7 @@ function rollDice() {
     diceThrow = Math.floor(Math.random() * 6) + 1;
     throws.push(diceThrow);
   }
+  return throws;
 }
 
 let dices = rollDice();
