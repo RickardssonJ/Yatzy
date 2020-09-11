@@ -29,6 +29,7 @@ calc.addEventListener("click", function () {
 
 /// Roll dice function and full house checker
 function rollDice() {
+
   let throws = [];
   let diceThrow = 0;
   for (i = 0; i < 5; i++) {
@@ -47,6 +48,14 @@ function countDice(dices) {
   for (let i = 0; i <= 6; i++) {
     values[i] = 0;
   }
+
+// dices = [0,1,1,3,5]
+// value = [1,2,0,1,1,0]  vi loopar
+// loop1 : [0,1,0,0,0,0]
+// loop2 : [0,2,0,0,0,0]
+// loop3 : [0,3,0,0,0,0]
+// loop4 : [0,3,0,1,0,0]
+// loop5 : [0,3,0,1,1,0]
 
   for (let current_dice of dices) {
     values[current_dice]++;
